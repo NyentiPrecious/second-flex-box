@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    padding: 3rem 8rem;
+}
+.nav{
+    background-color: black;
+    width: 78%;
+    height: 5vh;
+    justify-content: center;
+    
+}
+.body{
+    background-color: white;
+    height: 900px;
+    width: 800px;
+    justify-content: center;
+    
+
+}
+.suit{
+    padding-left: 6rem;
+}
+.head{
+    display: flex;
+}
+button{
+    padding: 1rem;
+    width: 80%;
+    border-radius: 20%;
+}
+.make{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    height: 100px;
+}
+.pic{
+    padding: 1rem;
+    background-color: brown;
+    height: 300PX;
+}
+.pic3{
+    color: aquamarine;
+}
+.fine{
+    background-color: black;
+}
+@media screen and (max-width: 700px) {
+    .class{
+
+        flex-direction: column;
+    }
+    .last{
+        flex-wrap: wrap;
+    }
+    .oop{
+        flex-wrap: wrap;
+        
+    }
+    .last{
+        flex-wrap: wrap;
+    }
+    
+}
+.star{
+    padding: 2rem;
+}
+.let{
+    padding: 4rem;
+}
+.oop{
+    padding: 1rem 1rem;
+}
+.again{
+    padding: 1rem;
+}
+.class{
+    display: flex;
+}
+.words{
+    padding-left: 4rem;
+}
+.img{
+    padding-left: 9rem;
+    padding: 4rem;
+}
